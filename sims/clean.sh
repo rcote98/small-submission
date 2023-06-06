@@ -1,0 +1,1 @@
+rm -rf init/ emin/ equi/ prod/ 
