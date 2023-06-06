@@ -30,9 +30,9 @@ To run the main simulations, *cd* into the *sims* directory and run the correspo
 ```bash
 cd sims
 ./init.sh   # runs the initialization of the system
-./emin.sh   # runs the energy minimization
-./equi.sh   # runs the equilibration
-./prod.sh   # runs the production
+./emin.sh   # runs the energy minimization run
+./equi.sh   # runs the equilibration run
+./prod.sh   # runs the production run
 ```
 
 ## Running the benchmarks
