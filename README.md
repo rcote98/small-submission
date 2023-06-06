@@ -3,8 +3,8 @@
 This repository contains a basic simulation of water with Molecular Dynamics using [GROMACS](https://www.gromacs.org/) (GROningen MAchine for Chemical Simulations). This is an assignment to evaluate a Ph.D. candidate's starting skills and knowledge. A basic report is included in the *report* directory.
 
 <p align="center">
-<img src="figures/cell.png" alt="Simulation Cell" width="300"/> </br>
-<em>Representation of the Simulation Cell</em>
+<img src="figures/cell.png" alt="Simulation Box" width="300"/> </br>
+<em>Representation of the simulation box</em>
 </p>
 
 ## Environment and Python Setup
@@ -53,4 +53,5 @@ cd plots
 python3 bench.py  # generates the benchmarks plot
 python3 emin.py   # generates the energy minimization plot
 python3 equi.py   # generates the equilibration plot
+python3 rdf.py    # generates the radial distribution plot
 ```
